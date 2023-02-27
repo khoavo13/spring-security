@@ -1,4 +1,4 @@
-# Spring security and Json Web Token (JWT)
+# Spring Security and Json Web Token (JWT)
 
 ### Setting dependencies in pom.xml file
 ``` xml
