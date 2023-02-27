@@ -22,8 +22,8 @@ public class SpringsecurityApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception{
 		User user = new User();
-		user.setUsername("khoavo");
-		user.setPassword(passwordEncoder.encode("1234"));
+		user.setUsername("khoa");
+		user.setPassword(passwordEncoder.encode("123"));
 		userRepository.save(user);
 		System.out.println(user);
 	}
